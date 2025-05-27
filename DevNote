@@ -1,0 +1,2 @@
+Short= $CalaMode + FirstLetterOfEachWord
+ErrorDef=$Itself + "_E"
