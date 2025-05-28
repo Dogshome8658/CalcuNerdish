@@ -34,7 +34,19 @@ bool Add_Des(Number FirstNumber,Number SecondNumber,c){
 }*/
 
 Number* CreateANumber(Number* NumberAllocating){
-    if()
+    if(NumberAllocating==NULL){
+        Number TheNumberAllocating=malloc(sizeof(Number));
+        if (TheNumberAllocating==NULL){
+            return NULL;
+        }
+        TheNumberAllocating.IfIsPositive=1;
+        TheNumberAllocating.LowerNumber=1;
+        TheNumberAllocating.UpperNumber=0;
+        return TheNumberAllocating;
+    }else{
+        
+    }
+    return NULL;
 }
 
 bool Addition(Number First,Number Sercond){
