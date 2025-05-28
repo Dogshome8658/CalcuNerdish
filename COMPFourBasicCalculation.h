@@ -17,7 +17,7 @@ int ErrorExecuted=0;
     return true;
 }
 
-bool Add_Des(Number FirstNumber,Number SecondNumber,Number* Result){
+bool Add_Des(Number FirstNumber,Number SecondNumber,c){
     if(FirstNumber.IfIsPositive==true&&SecondNumber.IfIsPositive==true){
         bool IfIhadToAddOneOnTheNextPlace=false;
         int Pointer=99;
@@ -31,6 +31,10 @@ bool Add_Des(Number FirstNumber,Number SecondNumber,Number* Result){
     }
     
 }*/
+
+bool Addition(Number First,Number Sercond){
+
+}
 
 #endif
 #define COMPFBC

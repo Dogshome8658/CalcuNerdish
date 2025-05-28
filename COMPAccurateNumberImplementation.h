@@ -11,7 +11,6 @@ struct UnsignedNumber{
     char Places[100];
 };
 
-
 struct Number{
     //char IAmFraction =1
     struct UnsignedNumber UpperNumber;
