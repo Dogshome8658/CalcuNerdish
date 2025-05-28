@@ -1,5 +1,6 @@
 #ifndef COMPFBC
 #include <COMPAccurateNumberImplementation.h>
+#include<stdlib.h>
 
 int ErrorExecuted=0;
 
@@ -31,6 +32,10 @@ bool Add_Des(Number FirstNumber,Number SecondNumber,c){
     }
     
 }*/
+
+Number* CreateANumber(Number* NumberAllocating){
+    if()
+}
 
 bool Addition(Number First,Number Sercond){
 

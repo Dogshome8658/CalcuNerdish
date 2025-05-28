@@ -1,3 +1,6 @@
 Short= $CalaMode + FirstLetterOfEachWord
 ErrorDef=$Itself + "_E"
 TypeDef=$Itself + "_F"
+OnException:
+    Bool=false
+    Other=NULL
