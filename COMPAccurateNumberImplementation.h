@@ -1,21 +1,26 @@
 #ifndef COMPANI
 
-struct AccurateNumber{
+struct DeprecatedAccurateNumber{
     //char IAmDesNum
     char Places[100];
     char IfIsPositive=1;
     char DesPlaces[100];
 };
 
-struct Fraction{
+struct UnsignedNumber{
+    char Places[100];
+};
+
+
+struct Number{
     //char IAmFraction =1
-    struct AccurateNumber UpperNumber;
-    struct AccurateNumber LowerNumber;
-    //char IfIsPositive=1;//Ignore both?
+    struct UnsignedNumber UpperNumber;
+    struct UnsignedNumber LowerNumber;
+    bool IfIsPositive=1;//Ignore both?
     //I guess just do some math
 };
 
-#define Number AccurateNumber
+//#define Number AccurateNumber
 #define bool char
 
 #define false 0
