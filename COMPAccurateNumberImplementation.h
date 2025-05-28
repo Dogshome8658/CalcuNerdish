@@ -1,14 +1,14 @@
 #ifndef COMPANI
 
 struct AccurateNumber{
-    char IAmDesNum
+    //char IAmDesNum
     char Places[100];
     char IfIsPositive=1;
     char DesPlaces[100];
 };
 
 struct Fraction{
-    char IAmFraction =1
+    //char IAmFraction =1
     struct AccurateNumber UpperNumber;
     struct AccurateNumber LowerNumber;
     //char IfIsPositive=1;//Ignore both?
