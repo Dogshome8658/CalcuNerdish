@@ -39,12 +39,15 @@ Number* CreateANumber(Number* NumberAllocating){
         if (TheNumberAllocating==NULL){
             return NULL;
         }
-        TheNumberAllocating.IfIsPositive=1;
-        TheNumberAllocating.LowerNumber=1;
-        TheNumberAllocating.UpperNumber=0;
+        &TheNumberAllocating.IfIsPositive=1;
+        &TheNumberAllocating.LowerNumber=1;
+        &TheNumberAllocating.UpperNumber=0;
         return TheNumberAllocating;
     }else{
-        
+        &TheNumberAllocating.IfIsPositive=1;
+        &TheNumberAllocating.LowerNumber=1;
+        &TheNumberAllocating.UpperNumber=0;
+        return TheNumberAllocating;
     }
     return NULL;
 }
